@@ -60,7 +60,7 @@ class Xotaker extends KendaniEak {
             var norXotaker = new Xotaker(xotakervandak[0], xotakervandak[1]);
             xotakerArr.push(norXotaker);
             matrix[xotakervandak[1]][xotakervandak[0]] = 2;
-            this.energy--
+            this.energy-=3;
         }
     }
     mahanal() {

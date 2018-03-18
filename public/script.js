@@ -57,13 +57,13 @@ function setup() {
                 xotakerArr.push(new Xotaker(x, y, 2));
             }
             else if (matrix[y][x] == 3) {
-                gishatichArr.push(new Gishatich(x, y));
+                gishatichArr.push(new Gishatich(x, y, 3));
             }
             else if (matrix[y][x] == 4) {
-                XxyArr.push(new Xxy(x, y));
+                XxyArr.push(new Xxy(x, y, 4));
             }
             else if (matrix[y][x] == 6) {
-                QarakerArr.push(new Qaraker(x, y));
+                QarakerArr.push(new Qaraker(x, y, 5));
             }
         }
     }
